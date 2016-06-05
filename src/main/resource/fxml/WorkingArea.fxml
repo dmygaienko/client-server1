@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" layoutX="8.0" layoutY="6.0" minHeight="450.0" opacity="0.93" pickOnBounds="false" prefHeight="618.0" prefWidth="611.0" styleClass="main-panel" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mygaienko.rt_system.controller.ChatController">
+    <children>
+      <Button layoutX="441.0" layoutY="534.0" mnemonicParsing="false" onAction="#sendMsg" prefHeight="31.0" prefWidth="111.0" text="send" />
+      <TextArea fx:id="chatTextArea" layoutX="38.0" layoutY="44.0" prefHeight="302.0" prefWidth="514.0" />
+      <TextArea fx:id="msgTextArea" layoutX="38.0" layoutY="418.0" prefHeight="90.0" prefWidth="514.0" />
+      <Label layoutX="38.0" layoutY="387.0" prefHeight="17.0" prefWidth="88.0" text="Enter message:" />
+      <Label layoutX="529.0" layoutY="22.0" text="Chat" />
+      <Label layoutX="38.0" layoutY="362.0" prefHeight="17.0" prefWidth="88.0" text="Nickname:" />
+      <TextField fx:id="nicknameTextField" layoutX="113.0" layoutY="358.0" />
+    </children>
+   <opaqueInsets>
+      <Insets bottom="1.0" left="1.0" right="1.0" top="1.0" />
+   </opaqueInsets>
+</AnchorPane>
